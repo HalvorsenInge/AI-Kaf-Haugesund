@@ -6,26 +6,14 @@
     <title>Sesjon 1 | AI-Kafé Haugesund</title>
     <link rel="stylesheet" href="../styles.css" />
   </head>
-  <body>
-    <header class="site-header">
-      <div class="container header-inner">
-        <div>
-          <p class="eyebrow">Haugesund</p>
-          <h1>AI-Kafé Haugesund</h1>
-        </div>
-        <nav class="top-nav" aria-label="Hovednavigasjon">
-          <a href="../index.html">Oversikt</a>
-          <a href="session-1.html" class="active">AI i podcaster</a>
-          <a href="session-2.html" hidden>Sesjon 2 (TBA)</a>
-          <a href="session-3.html" hidden>Sesjon 3 (TBA)</a>
-        </nav>
-      </div>
-    </header>
+  <body data-root="../" data-page="session-1">
+    <div data-header></div>
 
     <main class="page-shell">
       <div class="container article-grid">
         <article class="content-card">
-          <p class="eyebrow accent">Sesjon 1</p>
+          <p style="margin-top: 1rem;"><a class="back-link" href="../index.html">← Tilbake til oversikt</a></p>
+          <p class="eyebrow accent">Sesjon</p>
           <h2>AI i podcaster</h2>
           <p>
             I denne sesjonen ser vi på podcaster som snakker om AI – hva de fokuserer
@@ -67,7 +55,8 @@
           <br>
           <img src="assets\session-1\thumb_ingeBekskjært.jpg" alt="Inge Halvorsen" />
           <p> 
-            <strong>Inge Amdal Halvorsen</strong>
+            <strong>Inge Amdal Halvorsen</strong> - konsulent og utvikler med stor interesse for kunstig intelligens, teknologi og kunnskapsdeling. 
+            Han liker å utforske skjæringspunktet mellom mennesker, kultur og teknologi, og er alltid på jakt etter den neste interessante idéen, historien eller fotnoten.
           </p>
           <img src="assets\session-1\thumb_Portrett_Eivind.JPG" alt="Eivind Skaug" />
           <p> 
@@ -77,5 +66,6 @@
         </aside>
       </div>
     </main>
+    <script src="../header.js"></script>
   </body>
 </html>

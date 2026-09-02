@@ -5,6 +5,7 @@ Dette repoet inneholder en enkel statisk GitHub Pages-side for AI-Kafé Haugesun
 ## Hva som er med
 
 - Hjemmeside med oversikt over sesjoner
+- Felles toppmeny som lastes fra én komponent
 - Første sesjon om podcaster som snakker om AI
 - De resterende sesjonene er markert som TBA
 - GitHub Actions workflow for publisering til GitHub Pages
@@ -32,7 +33,10 @@ Deretter åpner du http://localhost:8000
 ```text
 .
 ├── .github/workflows/pages.yml
+├── components/header.html
+├── header.js
 ├── index.html
+├── about.html
 ├── styles.css
 ├── sessions/
 │   ├── session-1.html

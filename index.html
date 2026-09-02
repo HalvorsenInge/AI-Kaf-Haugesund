@@ -10,21 +10,8 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <header class="site-header">
-      <div class="container header-inner">
-        <div>
-          <p class="eyebrow">Haugesund</p>
-          <h1>AI-Kafé Haugesund</h1>
-        </div>
-        <nav class="top-nav" aria-label="Hovednavigasjon">
-          <a href="index.html" class="active">Oversikt</a>
-          <a href="sessions/session-1.html">AI i podcaster</a>
-          <a href="sessions/session-2.html" hidden>Sesjon 2 (TBA)</a>
-          <a href="sessions/session-3.html" hidden>Sesjon 3 (TBA)</a>
-        </nav>
-      </div>
-    </header>
+  <body data-root="" data-page="home">
+    <div data-header></div>
 
     <main>
       <section class="hero">
@@ -105,5 +92,6 @@
         <p>AI-Kafé Haugesund</p>
       </div>
     </footer>
+    <script src="header.js"></script>
   </body>
 </html>
